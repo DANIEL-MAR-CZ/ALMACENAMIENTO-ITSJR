@@ -9,7 +9,7 @@ const mongoose = require('mongoose')
 const Product = require('./models/product.js')
 
 const app= express()
-const port = process.env.PORT || 3003
+const port = process.env.PORT || 3009
 
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
